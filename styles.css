@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -292,14 +293,14 @@ header {
 }
 
 .card-text button {
-    background-color: #17181C;
+    background-color: #8A46FD;
     padding: 20px 20px;
     margin: 0px;
     border: none;
     border-radius: 50px;
-    color: #fff;
+    color: #17181C;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 .card-text button:hover {
@@ -308,7 +309,7 @@ header {
     margin: 0px;
     border: none;
     border-radius: 50px;
-    color: #17181C;
+    color: #fff;
     font-size: 16px;
 }
 
