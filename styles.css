@@ -486,18 +486,18 @@ header {
 
 @media(max-width:534px){
     .discover{
-        font-size: 40px;
+        font-size: 60px;
     }
     .the-future{
-        font-size: 30px;
+        font-size: 40px;
     }
      .of-shoping{
-        font-size: 50px;
+        font-size: 40px;
     }
     .left{
         position: relative;
         top: 70px;
-        height: 600px;
+        height: 500px;
     }
     .subtitle{
 display: none;
@@ -509,4 +509,19 @@ display: none;
         width: 300px;
     }
 
+}
+@media(max-width: 412px){
+  .cta-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    /* top: 50px; */
+    
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+    
 }
